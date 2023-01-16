@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="n2.css">
+    <style>
+        .but{
+            background-color:cornflowerblue;
+        }
+        body{
+            background-color: aquamarine;
+        }
+        .but:hover{
+            background-color: blueviolet;
+        }
+        h1{
+            font-style: oblique;
+        }
+        .all{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <form method="post">
+            <input type="text" name="txt" placeholder="введите строку">
+            <button type="submit" class="but">OK</button>
+        </form>
+        <h1>{{string}}</h1>
+    </div>
+</body>
